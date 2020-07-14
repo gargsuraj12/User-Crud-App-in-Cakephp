@@ -1,0 +1,707 @@
+2020-07-13 15:22:10 Error: [Error] Class 'App\Controller\AppController' not found
+Request URL: /
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Core/App.php(567): include()
+#1 [internal function]: App::load()
+#2 [internal function]: spl_autoload_call()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController()
+#5 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController()
+#6 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#7 {main}
+2020-07-13 15:22:50 Error: [Error] Class 'app\Controller\AppController' not found
+Request URL: /
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Core/App.php(567): include()
+#1 [internal function]: App::load()
+#2 [internal function]: spl_autoload_call()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController()
+#5 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController()
+#6 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#7 {main}
+2020-07-13 15:23:00 Error: [Error] Class 'app\Controller\AppController' not found
+Request URL: /
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Core/App.php(547): include()
+#1 [internal function]: App::load()
+#2 [internal function]: spl_autoload_call()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController()
+#5 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController()
+#6 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#7 {main}
+2020-07-13 15:23:09 Error: [MissingViewException] View file "Posts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(968): View->render()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-13 15:23:44 Error: [MissingViewException] View file "Posts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(968): View->render()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-13 15:30:53 Error: [Error] Call to undefined function App\uses()
+Request URL: /
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Core/App.php(567): include()
+#1 [internal function]: App::load()
+#2 [internal function]: spl_autoload_call()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController()
+#5 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController()
+#6 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#7 {main}
+2020-07-13 15:34:04 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#1 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#2 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#3 {main}
+2020-07-13 17:22:30 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/?url=posts%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 17:23:03 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/?url=posts%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 19:11:20 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/?url=posts%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 19:12:26 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/?url=posts%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 19:12:30 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/?url=posts%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 19:12:33 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/?url=posts%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 19:13:10 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/?url=posts%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 19:13:19 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/?url=posts%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 19:14:43 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/?url=posts%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 19:22:04 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/?url=posts%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 19:22:26 Error: [Error] Call to a member function find() on null
+Request URL: /users/?url=users%2F
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-13 19:27:25 Error: [Error] Call to a member function find() on null
+Request URL: /users/?url=users%2F
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-13 19:28:02 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/?url=users%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource()
+#3 /usr/share/php/cakephp/app/Controller/UsersController.php(9): Model->find()
+#4 [internal function]: UsersController->index()
+#5 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#6 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#7 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#8 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#9 {main}
+2020-07-13 19:32:55 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/?url=users%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource()
+#3 /usr/share/php/cakephp/app/Controller/UsersController.php(9): Model->find()
+#4 [internal function]: UsersController->index()
+#5 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#6 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#7 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#8 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#9 {main}
+2020-07-13 19:35:32 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'user_db.User\'',
+  'enabled' => true,
+)
+Request URL: /users/?url=users%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(278): Mysql->connect()
+#1 /usr/share/php/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3659): ConnectionManager::getDataSource()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Model.php(1162): Model->setDataSource()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource()
+#5 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#6 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource()
+#7 /usr/share/php/cakephp/app/Controller/UsersController.php(9): Model->find()
+#8 [internal function]: UsersController->index()
+#9 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#10 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#11 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#12 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#13 {main}
+2020-07-13 19:35:48 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/?url=users%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource()
+#3 /usr/share/php/cakephp/app/Controller/UsersController.php(9): Model->find()
+#4 [internal function]: UsersController->index()
+#5 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#6 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#7 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#8 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#9 {main}
+2020-07-13 19:39:04 Error: [MissingControllerException] Controller class PhpmuadminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmuadminController',
+  'plugin' => NULL,
+)
+Request URL: /phpmuadmin?url=phpmuadmin
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 19:39:15 Error: [MissingControllerException] Controller class PhpmyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmyadminController',
+  'plugin' => NULL,
+)
+Request URL: /phpmyadmin?url=phpmyadmin
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-13 19:51:19 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/?url=users%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource()
+#3 /usr/share/php/cakephp/app/Controller/UsersController.php(9): Model->find()
+#4 [internal function]: UsersController->index()
+#5 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#6 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#7 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#8 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#9 {main}
+2020-07-13 19:54:42 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/?url=users%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource()
+#3 /usr/share/php/cakephp/app/Controller/UsersController.php(9): Model->find()
+#4 [internal function]: UsersController->index()
+#5 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#6 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#7 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#8 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#9 {main}
+2020-07-13 20:15:51 Error: [ParseError] syntax error, unexpected '<'
+Request URL: /users/?url=users%2F
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/View/View.php(933): View->_evaluate()
+#1 /usr/share/php/cakephp/lib/Cake/View/View.php(473): View->_render()
+#2 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(968): View->render()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#5 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#6 {main}
+2020-07-13 22:55:51 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ';' or ','
+Request URL: /users/?url=users%2F
+Stack Trace:
+#0 [internal function]: App::load()
+#1 [internal function]: spl_autoload_call()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController()
+#5 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#6 {main}
+2020-07-14 11:14:14 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'newEntity' at line 1
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(23): Model->__call()
+#6 [internal function]: UsersController->add()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
+2020-07-14 11:26:43 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'newEntity' at line 1
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(23): Model->__call()
+#6 [internal function]: UsersController->add()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
+2020-07-14 11:26:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'newEntity' at line 1
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(23): Model->__call()
+#6 [internal function]: UsersController->add()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
+2020-07-14 11:50:38 Error: [Error] Call to a member function newEntity() on null
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 11:52:37 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'newEntity' at line 1
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(24): Model->__call()
+#6 [internal function]: UsersController->add()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
+2020-07-14 11:59:32 Error: [Error] Call to a member function newEntity() on null
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 11:59:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'newEntity' at line 1
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(24): Model->__call()
+#6 [internal function]: UsersController->add()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
+2020-07-14 12:04:09 Error: [Error] Class 'TableRegistry' not found
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 12:21:49 Error: [Error] Call to a member function newEntity() on null
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 12:22:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'newEntity' at line 1
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(24): Model->__call()
+#6 [internal function]: UsersController->add()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
+2020-07-14 12:22:35 Error: [Error] Call to a member function newEntity() on null
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 12:25:13 Error: [Error] Call to a member function newEntity() on null
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 12:25:25 Error: [Error] Call to a member function newEntity() on null
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 12:26:20 Error: [Error] Call to a member function newEntity() on null
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 12:31:47 Error: [Error] Call to a member function patchEntity() on null
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 12:36:40 Error: [Error] Call to a member function patchEntity() on null
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 12:37:05 Error: [Error] Call to a member function save() on null
+Request URL: /users/add?url=users%2Fadd
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 13:19:07 Error: [ParseError] syntax error, unexpected ','
+Request URL: /users?url=users
+Stack Trace:
+#0 [internal function]: App::load()
+#1 [internal function]: spl_autoload_call()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController()
+#5 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#6 {main}
+2020-07-14 14:10:58 Error: [MissingActionException] Action UsersController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+)
+Request URL: /users/edit?url=users%2Fedit
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#1 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#2 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#3 {main}
+2020-07-14 14:28:14 Error: [MissingViewException] View file "Users/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/delete.ctp',
+)
+Request URL: /users/delete/1?url=users%2Fdelete%2F1
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(968): View->render()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 14:29:02 Error: [MissingViewException] View file "Users/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/delete.ctp',
+)
+Request URL: /users/delete/1?url=users%2Fdelete%2F1
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(968): View->render()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 14:29:14 Error: [MissingViewException] View file "Users/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/delete.ctp',
+)
+Request URL: /users/delete/11?url=users%2Fdelete%2F11
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(968): View->render()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 14:30:18 Error: [MissingViewException] View file "Users/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/delete.ctp',
+)
+Request URL: /users/delete/10?url=users%2Fdelete%2F10
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(968): View->render()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 14:30:28 Error: [MissingViewException] View file "Users/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/delete.ctp',
+)
+Request URL: /users/delete/11?url=users%2Fdelete%2F11
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(968): View->render()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-14 14:40:33 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /users/?url=users%2F
+Stack Trace:
+#0 [internal function]: App::load()
+#1 [internal function]: spl_autoload_call()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController()
+#5 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#6 {main}
+2020-07-14 14:40:56 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /
+Stack Trace:
+#0 [internal function]: App::load()
+#1 [internal function]: spl_autoload_call()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController()
+#5 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#6 {main}
+2020-07-14 14:41:26 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /
+Stack Trace:
+#0 [internal function]: App::load()
+#1 [internal function]: spl_autoload_call()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController()
+#5 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#6 {main}
+2020-07-14 14:42:00 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /
+Stack Trace:
+#0 [internal function]: App::load()
+#1 [internal function]: spl_autoload_call()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController()
+#5 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#6 {main}
+2020-07-14 14:42:43 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /users/edit/2?url=users%2Fedit%2F2
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(51): Model->__call()
+#6 [internal function]: UsersController->edit()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
+2020-07-14 14:43:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /users/edit/4?url=users%2Fedit%2F4
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(51): Model->__call()
+#6 [internal function]: UsersController->edit()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
+2020-07-14 15:58:59 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'findBy' at line 1
+Request URL: /users/edit/14?url=users%2Fedit%2F14
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(42): Model->__call()
+#6 [internal function]: UsersController->edit()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
+2020-07-14 16:00:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /users/edit/14?url=users%2Fedit%2F14
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(42): Model->__call()
+#6 [internal function]: UsersController->edit()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
