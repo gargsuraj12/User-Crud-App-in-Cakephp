@@ -705,3 +705,63 @@ Stack Trace:
 #9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
 #10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
 #11 {main}
+2020-07-14 16:28:09 Error: [TypeError] Argument 1 passed to Hash::filter() must be of the type array, null given, called in /usr/share/php/cakephp/lib/Cake/View/Helper.php on line 576
+Request URL: /users/edit/14?url=users%2Fedit%2F14
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/View/Helper.php(576): Hash::filter()
+#1 /usr/share/php/cakephp/lib/Cake/View/Helper/FormHelper.php(1054): Helper->setEntity()
+#2 /usr/share/php/cakephp/app/View/Users/edit.ctp(6): FormHelper->input()
+#3 /usr/share/php/cakephp/lib/Cake/View/View.php(971): include('/usr/share/php/...')
+#4 /usr/share/php/cakephp/lib/Cake/View/View.php(933): View->_evaluate()
+#5 /usr/share/php/cakephp/lib/Cake/View/View.php(473): View->_render()
+#6 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(968): View->render()
+#7 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#9 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#10 {main}
+2020-07-14 16:34:40 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'fetchAll' at line 1
+Request URL: /users/edit/14?url=users%2Fedit%2F14
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(42): Model->__call()
+#6 [internal function]: UsersController->edit()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
+2020-07-14 16:35:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'fetchAll' at line 1
+Request URL: /users/edit/14?url=users%2Fedit%2F14
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(834): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(42): Model->__call()
+#6 [internal function]: UsersController->edit()
+#7 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#8 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#10 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#11 {main}
+2020-07-14 16:44:24 Error: [TypeError] Argument 1 passed to Hash::filter() must be of the type array, null given, called in /usr/share/php/cakephp/lib/Cake/View/Helper.php on line 576
+Request URL: /users/edit/14?url=users%2Fedit%2F14
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/View/Helper.php(576): Hash::filter()
+#1 /usr/share/php/cakephp/lib/Cake/View/Helper.php(807): Helper->setEntity()
+#2 /usr/share/php/cakephp/lib/Cake/View/Helper/FormHelper.php(3086): Helper->_initInputField()
+#3 /usr/share/php/cakephp/lib/Cake/View/Helper/FormHelper.php(1732): FormHelper->_initInputField()
+#4 /usr/share/php/cakephp/app/View/Users/edit.ctp(2): FormHelper->__call()
+#5 /usr/share/php/cakephp/lib/Cake/View/View.php(971): include('/usr/share/php/...')
+#6 /usr/share/php/cakephp/lib/Cake/View/View.php(933): View->_evaluate()
+#7 /usr/share/php/cakephp/lib/Cake/View/View.php(473): View->_render()
+#8 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(968): View->render()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#11 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#12 {main}

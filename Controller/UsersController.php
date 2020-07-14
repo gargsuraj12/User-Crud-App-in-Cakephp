@@ -38,16 +38,17 @@ class UsersController extends AppController{
         $this->set('user', $user);
     }
 
-    public function edit($id = Null){
-        // $user = $this->User->get($id);
+    public function edit($id){
+        $sql_query = "";
         $sql_query = "SELECT * FROM users WHERE id=".$id.";";
-        $user = $this->User->query($sql_query);
+        $user = $this->User->query($sql_query)[0];
+        // echo $user["users"]["id"];
         $this->set('user', $user);
         // print_r($user);
 
-        $user = $this->request->data;
+        // $user = $this->request->data;
         if($this->request->is('post')){
-            // $user = $this->request->data;
+            $user = $this->request->data;
             // echo "Processing post request<br>";
             
             
@@ -81,6 +82,7 @@ class UsersController extends AppController{
             }
             return $this->redirect(['action' => 'index']);
         }    
+        $this->set('user', $user);
     }
 
     public function delete($id){

@@ -31,10 +31,14 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	echo $this->Html->meta('icon');
 
 	// echo $this->Html->css('cake.generic');
-	echo $this->Html->css('bootstrap');
-	echo $this->Html->css('bootstrap.min');
-	echo $this->Html->script('bootstrap');
-	echo $this->Html->script('jquery-3.5.1');
+	echo $this->Html->css('bootstrap.css');
+	echo $this->Html->css('bootstrap.min.css');
+	echo $this->Html->script('bootstrap.js');
+	echo $this->Html->script('jquery-3.5.1.js');
+
+	echo $this->Html->css('https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css');
+	echo $this->Html->script('https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js');
+	echo $this->Html->script('https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js');
 
 	echo $this->fetch('meta');
 	echo $this->fetch('css');
@@ -74,3 +78,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 </body>
 
 </html>
+
+<!-- <script>
+	$(document).ready(function(){
+		$('#user_data').DataTable();
+	});
+</script> -->

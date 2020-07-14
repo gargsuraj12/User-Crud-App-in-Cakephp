@@ -3,10 +3,10 @@
     <h1>Edit User</h1>
     <fieldset>
         <div class="form-group">
-            <?php echo $this->Form->input('fname', ['class' => 'form-control'], ['default' => 'First Name']); ?>
+            <?php echo $this->Form->input('fname', ['class' => 'form-control', 'label'=>'First Name']); ?>
         </div>
         <div class="form-group">
-            <?php echo $this->Form->input('lname', ['class' => 'form-control']); ?>
+            <?php echo $this->Form->input('lname', ['class' => 'form-control', 'label'=>'Last Name']); ?>
         </div>
         <div class="form-group">
             <?php echo $this->Form->input('details', ['class' => 'form-control']); ?>
