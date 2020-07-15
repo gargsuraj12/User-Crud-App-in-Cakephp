@@ -31,7 +31,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	echo $this->Html->meta('icon');
 
 	// echo $this->Html->css('cake.generic');
-	echo $this->Html->css('bootstrap.css');
+	// echo $this->Html->css('bootstrap.css');
 	echo $this->Html->css('bootstrap.min.css');
 	echo $this->Html->script('bootstrap.js');
 	echo $this->Html->script('jquery-3.5.1.js');
@@ -58,9 +58,6 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 			<a class="navbar-brand" href="#">User Crud Application</a>
-			<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button> -->
 		</nav>
 		<div id="content">
 

@@ -765,3 +765,397 @@ Stack Trace:
 #10 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
 #11 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
 #12 {main}
+2020-07-14 19:50:58 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /users?url=users
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/View/View.php(933): View->_evaluate()
+#1 /usr/share/php/cakephp/lib/Cake/View/View.php(473): View->_render()
+#2 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(968): View->render()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#5 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#6 {main}
+2020-07-14 20:15:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password=' at line 1
+Request URL: /login?url=login
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3489): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(10): Model->query()
+#6 /usr/share/php/cakephp/app/Controller/UsersController.php(21): UsersController->validUser()
+#7 [internal function]: UsersController->login()
+#8 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#10 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#11 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#12 {main}
+2020-07-14 20:15:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password=' at line 1
+Request URL: /
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3489): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(10): Model->query()
+#6 /usr/share/php/cakephp/app/Controller/UsersController.php(21): UsersController->validUser()
+#7 [internal function]: UsersController->login()
+#8 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#10 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#11 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#12 {main}
+2020-07-14 20:17:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password=' at line 1
+Request URL: /
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3489): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(10): Model->query()
+#6 /usr/share/php/cakephp/app/Controller/UsersController.php(21): UsersController->validUser()
+#7 [internal function]: UsersController->login()
+#8 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#10 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#11 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#12 {main}
+2020-07-14 20:17:20 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password=' at line 1
+Request URL: /login?url=login
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3489): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(10): Model->query()
+#6 /usr/share/php/cakephp/app/Controller/UsersController.php(21): UsersController->validUser()
+#7 [internal function]: UsersController->login()
+#8 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#10 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#11 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#12 {main}
+2020-07-14 20:21:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'rahulch' in 'where clause'
+Request URL: /
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3489): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(10): Model->query()
+#6 /usr/share/php/cakephp/app/Controller/UsersController.php(23): UsersController->validUser()
+#7 [internal function]: UsersController->login()
+#8 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#10 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#11 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#12 {main}
+2020-07-14 20:22:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'rahulch' in 'where clause'
+Request URL: /add?url=add
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute()
+#1 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute()
+#2 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute()
+#3 /usr/share/php/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll()
+#4 /usr/share/php/cakephp/lib/Cake/Model/Model.php(3489): DboSource->query()
+#5 /usr/share/php/cakephp/app/Controller/UsersController.php(42): Model->query()
+#6 /usr/share/php/cakephp/app/Controller/UsersController.php(57): UsersController->isUsernameAvailable()
+#7 [internal function]: UsersController->add()
+#8 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#9 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#10 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#11 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#12 {main}
+2020-07-15 08:06:57 Error: [Error] Call to a member function is() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:08:55 Error: [Error] Call to a member function is() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:10:16 Error: [Error] Call to a member function is() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:11:25 Error: [Error] Call to a member function is() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:13:51 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:14:53 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:15:49 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:17:13 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:18:15 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:19:32 Error: [Error] Call to a member function success() on null
+Request URL: /add?url=add
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:20:51 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:22:41 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:23:37 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:24:03 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:25:12 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:26:48 Error: [Error] Call to a member function is() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:28:39 Error: [Error] Call to a member function is() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:32:56 Error: [Error] Call to a member function is() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:36:44 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /index?url=index
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-15 08:37:53 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /index?url=index
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}
+2020-07-15 08:38:25 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:39:54 Error: [Error] Call to a member function allow() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:39:54 Error: Fatal Error (1): Uncaught Error: Call to a member function allow() on null in /usr/share/php/cakephp/app/Controller/AppController.php:52
+Stack trace:
+#0 /usr/share/php/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch()
+#2 /usr/share/php/cakephp/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /usr/share/php/cakephp/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController()
+#4 /usr/share/php/cakephp/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct()
+#5 [internal function]: ErrorHandler::handleException()
+#6 {main}
+  thrown in [/usr/share/php/cakephp/app/Controller/AppController.php, line 52]
+2020-07-15 08:39:54 Error: [FatalErrorException] Uncaught Error: Call to a member function allow() on null in /usr/share/php/cakephp/app/Controller/AppController.php:52
+Stack trace:
+#0 /usr/share/php/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch()
+#2 /usr/share/php/cakephp/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /usr/share/php/cakephp/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController()
+#4 /usr/share/php/cakephp/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct()
+#5 [internal function]: ErrorHandler::handleException()
+#6 {main}
+  thrown
+Request URL: /login?url=login
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError()
+#1 /usr/share/php/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError()
+#2 /usr/share/php/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2020-07-15 08:39:56 Error: [Error] Call to a member function allow() on null
+Request URL: /users?url=users
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:39:56 Error: Fatal Error (1): Uncaught Error: Call to a member function allow() on null in /usr/share/php/cakephp/app/Controller/AppController.php:52
+Stack trace:
+#0 /usr/share/php/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch()
+#2 /usr/share/php/cakephp/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /usr/share/php/cakephp/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController()
+#4 /usr/share/php/cakephp/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct()
+#5 [internal function]: ErrorHandler::handleException()
+#6 {main}
+  thrown in [/usr/share/php/cakephp/app/Controller/AppController.php, line 52]
+2020-07-15 08:39:56 Error: [FatalErrorException] Uncaught Error: Call to a member function allow() on null in /usr/share/php/cakephp/app/Controller/AppController.php:52
+Stack trace:
+#0 /usr/share/php/cakephp/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch()
+#2 /usr/share/php/cakephp/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /usr/share/php/cakephp/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController()
+#4 /usr/share/php/cakephp/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct()
+#5 [internal function]: ErrorHandler::handleException()
+#6 {main}
+  thrown
+Request URL: /users?url=users
+Stack Trace:
+#0 /usr/share/php/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError()
+#1 /usr/share/php/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError()
+#2 /usr/share/php/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2020-07-15 08:41:08 Error: [Error] Call to a member function success() on null
+Request URL: /login?url=login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 08:43:15 Error: [Error] Call to a member function logout() on null
+Request URL: /users/logout/class:btn%20btn-primary?url=users%2Flogout%2Fclass%3Abtn+btn-primary
+Stack Trace:
+#0 [internal function]: UsersController->logout()
+#1 /usr/share/php/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs()
+#2 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction()
+#3 /usr/share/php/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2020-07-15 11:07:53 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /logout?url=logout
+Stack Trace:
+#0 /usr/share/php/cakephp/app/webroot/index.php(117): Dispatcher->dispatch()
+#1 {main}

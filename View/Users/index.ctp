@@ -1,5 +1,15 @@
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">User Crud Application</a>
+</nav> -->
 <div class="container">
-    <h1>User List</h1>
+    
+    <?php #print_r($_SESSION["username"]);
+    ?>
+    <?php #print_r($this->Session->read('loginUser'))
+    ?>
+    <h2>
+        Welcome, <?php echo $this->Session->read('loginUser')["fname"] . " " . $this->Session->read('loginUser')["lname"];; ?>
+    </h2>
     <table class="table table-hover" id="user_data">
         <thead>
             <tr class="table-info">
@@ -31,11 +41,14 @@
             <?php endif; ?>
         </tbody>
     </table>
-    <?php echo $this->Html->link('Add User', ['action' => 'add'], ['class' => 'btn btn-primary']); ?>
+    <?php #echo $this->Html->link('Add User', ['action' => 'add'], ['class' => 'btn btn-dark']); 
+    ?>
+    <?php echo $this->Html->link('Logout', ['action' => 'logout'], ['class' => 'btn btn-primary']); 
+    ?>
     <?php echo $this->Flash->render('message'); ?>
 </div>
 <script>
-	$(document).ready(function(){
-		$('#user_data').DataTable();
-	});
+    $(document).ready(function() {
+        $('#user_data').DataTable();
+    });
 </script>
